@@ -1,0 +1,138 @@
+# ============================================
+# CRITICAL: Health Data & Security Files
+# NEVER COMMIT THESE!
+# ============================================
+
+# Encryption Key (SENSITIVE!)
+secret.key
+*.key
+
+# Health Data (VERY SENSITIVE!)
+period_data.csv
+*.csv
+
+# Backup files (if you create any)
+*.csv.bak
+*.backup
+
+# ============================================
+# Python Standard Ignores
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================
+# IDE / Editor Files
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# OS Generated Files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# Matplotlib Generated Files
+# ============================================
+
+# Plot output files (if saving charts)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# ============================================
+# Temporary Files
+# ============================================
+
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
